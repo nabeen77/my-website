@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Other tags like meta, title, etc. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nabin Sapkota | Tech Enthusiast & Web Developer Portfolio</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Nabin Sapkota - Tech Enthusiast, Designer & Web Developer from Nepal. Specializing in AWS, Python, UI/UX Design, and IT Support. View my projects and experience.">
+  <meta name="keywords" content="Nabin Sapkota, Web Developer, Tech Enthusiast, AWS, Python, UI/UX Designer, IT Support, Nepal, Portfolio">
+  <meta name="author" content="Nabin Sapkota">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Nabin Sapkota | Tech Enthusiast & Web Developer">
+  <meta property="og:description" content="Tech Enthusiast, Designer & Web Developer specializing in AWS, Python, and UI/UX Design">
+  <meta property="og:image" content="https://i.ibb.co/jZP8Hc5r/pp.webp">
+  <meta property="og:url" content="https://yourportfolio.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nabin Sapkota | Tech Enthusiast & Web Developer">
+  <meta name="twitter:description" content="Tech Enthusiast, Designer & Web Developer specializing in AWS, Python, and UI/UX Design">
+  <meta name="twitter:image" content="https://i.ibb.co/jZP8Hc5r/pp.webp">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Print Styles -->
+  <style media="print">
+    .hamburger, .theme-toggle, .back-to-top, .scroll-down { display: none !important; }
+    .nav-links { display: block !important; position: static !important; }
+    .nav-links a { display: inline-block !important; margin-right: 20px !important; }
+    body { font-size: 12pt !important; line-height: 1.4 !important; }
+    .hero { page-break-after: always; }
+    .project-item, .testimonial-item { page-break-inside: avoid; }
+  </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nabin Sapkota",
+    "jobTitle": "Tech Enthusiast & Web Developer",
+    "description": "Tech Enthusiast, Designer & Web Developer specializing in AWS, Python, and UI/UX Design",
+    "url": "https://yourportfolio.com",
+    "image": "https://i.ibb.co/jZP8Hc5r/pp.webp",
+    "sameAs": [
+      "https://www.linkedin.com/in/nabin-sapkota-0920b4346/",
+      "https://github.com/nabeen77",
+      "https://www.instagram.com/manchester_nabeen7/"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "MSP SOLUTIONS PVT LTD"
+    },
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "Texas International College"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "Orchid International College"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google Analytics (Replace GA_MEASUREMENT_ID with your actual ID) -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+  -->
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+  <header>
+    <nav id="navbar">
+      <button class="hamburger" id="hamburger-button" aria-label="Open navigation menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#philosophy">Philosophy</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-sun" id="theme-icon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero Section ===== -->
+    <section id="hero" class="hero">
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.instagram.com/manchester_nabeen7/" target="_blank" rel="noopener">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" loading="lazy" />
+        </a>
+                <a href="https://www.linkedin.com/in/nabin-sapkota-0920b4346/" target="_blank" rel="noopener">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" loading="lazy" />
+        </a>
+        <a href="https://github.com/nabeen77" target="_blank" rel="noopener">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" loading="lazy" />
+        </a>
+      </div>
+
+      <!-- Hero Text -->
+      <div class="hero-content fade-up">
+        <h1>Nabin Sapkota</h1>
+        <p>Tech Enthusiast | Designer | Web Developer</p>
+        <a href="#expertise" class="cta-button">
+  <i class="fas fa-briefcase" style="margin-right: 8px;"></i> My Expertise
+</a>
+
+      </div>
+
+      <!-- Scroll down icon -->
+     <div class="scroll-down" role="button" aria-label="Scroll down">
+  <i class="fas fa-chevron-down"></i>
+</div>
+
+    </section>
+ 
+</body>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-text fade-up">
+        <p>Hi! I’m Nabin Sapkota — a passionate Tech Enthusiast, Designer, and Web Developer based in Nepal. I enjoy crafting creative and user-friendly digital experiences by combining design principles with clean, efficient code.</p>
+        <p>With a background in IT support and cloud technologies, I bring both technical expertise and a creative mindset to every project. Whether it’s building responsive websites, designing engaging interfaces, or exploring the latest tech trends, I’m always eager to learn and grow. I’m excited to connect, collaborate, and contribute to innovative projects that make a difference.</p>
+<a href="https://app.sajilocv.com/cv/2eeff9c0-3e33-4635-9a2b-9b164d94429f" target="_blank" class="download-cv-btn">
+  <i class="fas fa-file-download"></i>
+  Download CV
+</a>
+
+      </div>
+      <div class="about-image fade-up">
+        <img src="https://i.ibb.co/jZP8Hc5r/pp.webp" alt="Working Developer" loading="lazy">
+      </div>
+    </section>
+
+  <!-- ===== Continuous Skills Section ===== -->
+<section id="expertise" class="skills-marquee">
+  <h2 class="skills-title">Expertise</h2>
+  <div class="marquee-wrapper">
+    <div class="marquee-track">
+      <!-- === One set of skills === -->
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="AWS" loading="lazy" />
+        <span>AWS</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="UI/UX" loading="lazy" />
+        <span>UI/UX</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python" loading="lazy" />
+        <span>Python</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML/CSS" loading="lazy" />
+        <span>HTML/CSS</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png" alt="IT Support" loading="lazy" />
+        <span>IT Support</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/2983/2983799.png" alt="Data" loading="lazy" />
+        <span>Data Analysis</span>
+      </div>
+
+      <!-- === Duplicate same set for smooth loop === -->
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="AWS" loading="lazy" />
+        <span>AWS</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="UI/UX" loading="lazy" />
+        <span>UI/UX</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python" loading="lazy" />
+        <span>Python</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML/CSS" loading="lazy" />
+        <span>HTML/CSS</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/2906/2906274.png" alt="IT Support" loading="lazy" />
+        <span>IT Support</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/2983/2983799.png" alt="Data" loading="lazy" />
+        <span>Data Analysis</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- ✅ Projects Section with images updated -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-list">
+        <figure class="project-item fade-up">
+         <img src="https://i.ibb.co/sJjRZv6S/inventory.webp" alt="Inventory Management System" loading="lazy" />
+
+          <figcaption>
+            <h3>Inventory Management System</h3>
+            <p>Developed a web-based Inventory Management System with product catalog, real-time stock updates, user authentication, and reports. Used MySQL,    Python backend, and created a user-friendly interface.</p>
+          </figcaption>
+        </figure>
+        <figure class="project-item fade-up">
+          <img src="https://i.ibb.co/B5BrXHN5/chatbox.jpg" alt="Chatbot" loading="lazy">
+          <figcaption>
+            <h3>Chatbot</h3>
+            <p>Created a chatbot to automate user queries and improve customer engagement. Implemented using Python and integrated APIs.</p>
+          </figcaption>
+        </figure>
+        <figure class="project-item fade-up">
+          <img src="https://i.ibb.co/1ffXwfrh/automation-script.jpg" alt="Automation Scripts" loading="lazy">
+          <figcaption>
+            <h3>Automation Scripts</h3>
+            <p>Built various Python automation scripts to streamline data entry, file management, and system monitoring.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+  <!-- Experience Section -->
+<section id="experience">
+  <h2 style="text-align: center;">Experience</h2>
+  <ul class="timeline">
+
+    <!-- Associate Cloud Engineer -->
+    <li class="fade-up" style="display: flex; align-items: center; margin-bottom: 20px;">
+      <div>
+        <i class="fas fa-briefcase" style="margin-right: 10px; font-size: 22px;"></i>
+        <strong style="font-size: 1.2rem;">Associate Cloud Engineer</strong> - MSP SOLUTIONS PVT LTD (Sep 2022 – 2024)<br>
+        <small style="font-size: 0.95rem;">
+          Supported and troubleshooted cloud infrastructure to ensure uptime and performance. Monitored systems, resolved incidents, and managed service tickets. Assisted in provisioning, access control, and cloud resource management. Collaborated on deployments, automation scripts, and system documentation. Ensured security compliance and supported hybrid cloud integrations.
+        </small>
+      </div>
+    </li>
+
+    <!-- QA Intern -->
+    <li class="fade-up" style="display: flex; align-items: center; margin-bottom: 20px;">
+      <div>
+        <i class="fas fa-briefcase" style="margin-right: 10px; font-size: 22px;"></i>
+        <strong style="font-size: 1.2rem;">QA Intern</strong> - IT HIVE SOLUTIONS (Feb 2022 – Aug 2022)<br>
+        <small style="font-size: 0.95rem;">
+          Assisted manual test case writing and software quality assurance processes.
+        </small>
+      </div>
+    </li>
+
+  </ul>
+</section>
+
+    
+<!-- Education Section -->
+<section id="education">
+  <h2>Education</h2>
+  <ul class="timeline">
+
+    <!-- Master Degree -->
+    <li class="fade-up" style="display: flex; align-items: center; margin-bottom: 20px;">
+            <div>
+        <i class="fas fa-graduation-cap" style="margin-right: 10px; font-size: 22px;"></i>
+        <strong style="font-size: 1.2rem;">Master of Computer Science</strong> - Texas International College, Mitrapark (2025 – Present)<br>
+        <small style="font-size: 0.95rem;">Currently pursuing an advanced academic program focused on software engineering, data structures and algorithms, artificial intelligence, and system design.</small>
+      </div>
+    </li>
+
+    <!-- Bachelor Degree -->
+    <li class="fade-up" style="display: flex; align-items: center;">
+           <div>
+        <i class="fas fa-graduation-cap" style="margin-right: 10px; font-size: 22px;"></i>
+        <strong style="font-size: 1.2rem;">Bachelor of Information Management</strong> - Orchid International College, Gaushala (2018 – 2024)<br>
+        <small style="font-size: 0.95rem;">Completed an interdisciplinary program blending IT, management, and business with practical exposure to system development, cloud computing, and technical support.</small>
+      </div>
+    </li>
+
+  </ul>
+</section>
+
+
+       <section id="testimonials">
+  <h2>Testimonials</h2>
+  <div class="testimonial-list">
+    <figure class="testimonial-item fade-up">
+      <img src="https://i.ibb.co/whSpjh04/roshan-bhusal.jpg" alt="Chairman MSP Solutions" class="testimonial-avatar" loading="lazy" />
+      <figcaption>
+        <blockquote>
+          <p>"Nabin consistently impressed us with his technical problem-solving skills and ability to stay calm under pressure. A reliable and resourceful IT professional."</p>
+        </blockquote>
+        <p><em><span class="testimonial-name">Roshan Bhusal</span>, Chairman, MSP Solutions</em></p>
+      </figcaption>
+    </figure>
+    <figure class="testimonial-item fade-up">
+      <img src="https://i.ibb.co/nNSsSmzS/arun-satyal.jpg" alt="Arun Satyal" class="testimonial-avatar" loading="lazy" />
+      <figcaption>
+        <blockquote>
+          <p>"Nabin delivered exactly what we needed — a smooth, responsive website that looks great on all devices. Highly recommended for any web development work."</p>
+        </blockquote>
+        <p><em><span class="testimonial-name">Arun Satyal</span>, Lawyer, Lex Jurist</em></p>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+   <!-- Work Philosophy Section -->
+<section id="philosophy">
+  <h2>Work Philosophy</h2>
+  <div class="philosophy-content fade-up">
+    <p>
+      I approach technology as both a science and an art — combining logic with creativity to design solutions that are not only functional but meaningful. I believe in building with intention: every line of code, every system configured, and every interface designed should serve a purpose and enhance the user experience. My work is guided by three core values: adaptability in a rapidly changing digital world, precision in execution, and empathy for the end user.
+    </p>
+  </div>
+</section>
+
+   <!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/mgvyzjeg" method="POST" class="fade-up" id="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="_replyto" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+    <button type="submit" id="submit-btn">
+      <span class="btn-text">Send Message</span>
+      <span class="btn-loading" style="display: none;">
+        <i class="fas fa-spinner fa-spin"></i> Sending...
+      </span>
+    </button>
+    <div id="form-status" style="margin-top: 15px; padding: 10px; border-radius: 5px; display: none;"></div>
+  </form>
+</section>
+    <section id="last-page" style="padding: 60px 20px; font-family: 'Segoe UI', Tahoma, sans-serif; max-width: 900px; margin: 0 auto; text-align: center;">
+  <h2 style="text-transform: none; font-size: 2.6rem; margin-bottom: 40px;">Let's Work Together</h2>
+
+  <div class="contact-container" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    
+    <!-- Email Box -->
+    <div class="contact-box" style="padding: 15px 18px; max-width: 270px; width: 100%; overflow: hidden; text-align: left;">
+      <i class="fas fa-envelope" style="font-size: 18px;"></i>
+      <div class="contact-info" style="margin-left: 10px; flex: 1; word-break: break-word;">
+        <div style="font-size: 0.95rem; font-weight: 600;">Email</div>
+        <a href="mailto:sudeshnapandey8@gmail.com" style="font-size: 0.88rem; text-decoration: none; display: block;">nabinsapkota5055@gmail.com</a>
+      </div>
+    </div>
+
+    <!-- Mobile Box -->
+    <div class="contact-box" style="padding: 15px 18px; max-width: 270px; width: 100%; overflow: hidden; text-align: left;">
+      <i class="fas fa-mobile-alt" style="font-size: 18px;"></i>
+      <div class="contact-info" style="margin-left: 10px; flex: 1;">
+        <div style="font-size: 0.95rem; font-weight: 600;">Mobile</div>
+        <span style="font-size: 0.88rem;">+977 9861142100</span>
+      </div>
+    </div>
+
+    <!-- Address Box -->
+    <div class="contact-box" style="padding: 15px 18px; max-width: 270px; width: 100%; overflow: hidden; text-align: left;">
+      <i class="fas fa-map-marker-alt" style="font-size: 18px;"></i>
+      <div class="contact-info" style="margin-left: 10px; flex: 1;">
+        <div style="font-size: 0.95rem; font-weight: 600;">Address</div>
+        <span style="font-size: 0.88rem;">Kathmandu, Nepal</span>
+      </div>
+    </div>
+
+  </div>
+
+  <h3 style="text-transform: none; font-size: 1.4rem; margin-top: 40px; margin-bottom: 40px;">Thank You For Visiting!</h3>
+
+<div class="footer-social-icons" style="margin-top: 25px; display: flex; justify-content: center; gap: 25px;">
+  <a href="https://www.instagram.com/manchester_nabeen7/" target="_blank" class="social-link instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.facebook.com/nabin.sapkota.1447" target="_blank" class="social-link facebook">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/nabin-sapkota-0920b4346/" target="_blank" class="social-link linkedin">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</div>
+
+</section>
+  </main>
+
+  <a href="#hero" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script>
+    const faders = document.querySelectorAll('.fade-up');
+    const appearOptions = { threshold: 0.2 };
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, appearOptions);
+    faders.forEach(fader => appearOnScroll.observe(fader));
+
+    const hamburgerButton = document.getElementById('hamburger-button');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburgerButton.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    navLinks.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+
+    // Active navigation highlighting based on scroll position
+    const navLinksArray = document.querySelectorAll('.nav-links a');
+    const sections = document.querySelectorAll('section[id]');
+
+    function updateActiveNavLink() {
+      let current = '';
+      const scrollPosition = window.scrollY + 250; // Offset for better detection
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionBottom = sectionTop + section.clientHeight;
+
+        // Check if scroll position is within this section
+        if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      // Clear all active states first
+      navLinksArray.forEach(link => {
+        link.classList.remove('active-nav');
+      });
+
+      // Only add active state if we have a current section
+      if (current) {
+        navLinksArray.forEach(link => {
+          if (link.getAttribute('href') === `#${current}`) {
+            link.classList.add('active-nav');
+          }
+        });
+      }
+    }
+
+    // Update active nav on scroll
+    window.addEventListener('scroll', updateActiveNavLink);
+
+    // Update active nav on page load
+    updateActiveNavLink();
+  const backToTopButton = document.querySelector('.back-to-top');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTopButton.classList.add('visible');
+      } else {
+        backToTopButton.classList.remove('visible');
+      }
+    });
+
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    const body = document.body;
+
+    // Check for saved theme preference or default to 'dark'
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    body.setAttribute('data-theme', currentTheme);
+
+    // Update icon based on current theme
+    if (currentTheme === 'light') {
+      themeIcon.className = 'fas fa-moon';
+    } else {
+      themeIcon.className = 'fas fa-sun';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = body.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+      body.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+
+      // Update icon
+      if (newTheme === 'light') {
+        themeIcon.className = 'fas fa-moon';
+      } else {
+        themeIcon.className = 'fas fa-sun';
+      }
+    });
+
+    // Contact form handling
+    const contactForm = document.getElementById('contact-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const btnText = document.querySelector('.btn-text');
+    const btnLoading = document.querySelector('.btn-loading');
+    const formStatus = document.getElementById('form-status');
+
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Show loading state
+      btnText.style.display = 'none';
+      btnLoading.style.display = 'inline-block';
+      submitBtn.disabled = true;
+      formStatus.style.display = 'none';
+
+      try {
+        const formData = new FormData(contactForm);
+        const response = await fetch(contactForm.action, {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+
+        if (response.ok) {
+          formStatus.innerHTML = '<i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully.';
+          formStatus.style.backgroundColor = '#d4edda';
+          formStatus.style.color = '#155724';
+          formStatus.style.border = '1px solid #c3e6cb';
+          formStatus.style.display = 'block';
+          contactForm.reset();
+        } else {
+          throw new Error('Form submission failed');
+        }
+      } catch (error) {
+        formStatus.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Oops! There was a problem sending your message. Please try again.';
+        formStatus.style.backgroundColor = '#f8d7da';
+        formStatus.style.color = '#721c24';
+        formStatus.style.border = '1px solid #f5c6cb';
+        formStatus.style.display = 'block';
+      } finally {
+        // Reset button state
+        btnText.style.display = 'inline-block';
+        btnLoading.style.display = 'none';
+        submitBtn.disabled = false;
+      }
+    });
+  </script>
+
+</body>
+</html>
